@@ -1,0 +1,32 @@
+.FoodBox_container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 100%;
+    border: 1px solid black;
+    background-color: lightgray;
+    margin:20px ;
+   
+
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.has-addons{
+   display: flex;
+   justify-content: space-around;
+}
+.control{
+    margin-left: 10px;
+
+}
+.is-info{
+    cursor: pointer;
+}
